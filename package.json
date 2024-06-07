@@ -1,0 +1,36 @@
+{
+  "name": "leyline-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.13.2"
+  },
+  "scripts": {
+    "lint": "eslint eslint.config.js ./",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "waqas.awan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.52.0",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.6.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-export-default-from": "^7.12.13",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "nodemon": "^2.0.14"
+  }
+}
